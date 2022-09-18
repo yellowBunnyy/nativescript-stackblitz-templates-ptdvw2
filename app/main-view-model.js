@@ -2,9 +2,9 @@ import { Observable } from '@nativescript/core';
 
 function getMessage(counter) {
   if (counter <= 0) {
-    return 'Hoorraaay! You unlocked the NativeScript clicker achievement!';
+    return 'you lose...';
   } else {
-    return `${counter} taps left`;
+    return `${counter} to lose`;
   }
 }
 
